@@ -25,7 +25,13 @@
   --color-bg-main: black;
   --color-bg-secondsec: #1a1a19;
   --color-bg-promo: #1a1a19;
-  --color-card: #ffc75d;
+  --color-card:  linear-gradient(
+    50deg,
+    #ffedb3 
+    ,#FFC75D,
+    transparent
+
+  );
   --color-bg-footer: #1a1a19;
   --text-color: #ecc67b;
   --text-bg-color: #ecc67b;
@@ -409,8 +415,7 @@ body {
 }
 
 .feature-card p {
-  font-size: 14px;
-  color: #555;
+  font-size: 17px;
   line-height: 1.6;
 }
 
