@@ -47,7 +47,7 @@ body {
   background-position: center;
   background-size: cover;
   background-image: url("../Images/learning-teacher.png");
-  min-height: 600px;
+  min-height: 100vh;
   padding: 30px;
   width: 100%;
   max-width: 100%;
@@ -68,10 +68,10 @@ body {
 }
 
 .navbar .title {
-  font-family: "Gravitas One", serif;
-  font-weight: 200;
+  font-family: "Gravitas ", serif;
   font-style: normal;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 28px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,7 +209,7 @@ body {
 }
 
 .Improve h1 {
-  font-size: clamp(28px, 8vw, 42px);
+  font-size: clamp(28px, 8vw, 52px);
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -290,27 +290,27 @@ body {
   align-items: center;
 }
 .education-text {
-  max-width: 400px;
+  max-width: 350px;
   margin: auto;
 }
 .education-text p {
-  padding: 20px auto;
+  padding: 30px auto;
   color: var(--description-text-color);
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 2;
 }
 .education-text h1 {
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 44px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
 .education-text span {
   border-style: solid;
   border-radius: 50px;
-  padding: 0.3px 16px;
+  padding: 0.5px 25px;
   font-family: "Times New Roman", Times, serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: italic;
   border-color: #000;
   background-color: #f9c265;
