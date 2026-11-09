@@ -665,6 +665,7 @@ body {
   max-width: 220px;
   padding: 10px 15px;
   border-radius: 10px;
+  border: none;
   background-color: #000;
   color: #fff;
   font-size: 14px;
