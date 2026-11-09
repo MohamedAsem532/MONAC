@@ -47,11 +47,8 @@ body {
   max-width: 100%;
 }
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  padding: 0px 10px;
+  padding: 20px 31px;
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: var(--color-nav-bar);
@@ -59,12 +56,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .navbar .title {
-  font-family: "Gravitas ", serif;
+  font-family: 'Mona', sans-serif;;
   font-style: normal;
   font-weight: 600;
+  line-height: 1.6;
   font-size: 28px;
   display: flex;
   justify-content: center;
@@ -198,7 +197,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
-  padding-top: 80px;
   text-align: center;
 }
 
@@ -766,6 +764,7 @@ body {
   max-width: 100%;
   scroll-behavior: smooth;
 }
+
 
 @media (max-width: 1200px) {
   .navbar .nav-links {
