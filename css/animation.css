@@ -1,5 +1,5 @@
 .showNav{
-  animation: showNav 1s ease forwards;
+  animation: showNav 1s ease 1s forwards;
   opacity: 0;
 }
 @keyframes showNav {
