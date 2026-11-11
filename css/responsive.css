@@ -48,6 +48,10 @@
   .Third-Section {
     padding: 30px 20px;
   }
+  .education-content{
+      flex-wrap: wrap;
+
+  }
   .education-text h1 {
     font-size: clamp(24px, 5vw, 36px);
   }
@@ -134,7 +138,7 @@
     line-height: 1.5;
   }
   .app-promo {
-    padding: 50px 20px;
+    padding: 50px 40px;
   }
   .app-promo h2 {
     padding: 40px 20px;
